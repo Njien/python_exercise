@@ -51,3 +51,13 @@ expo = float(Num_one) ** float(Num_two)
 print(f"{Num_one} ** {Num_two} = {expo :.2f}") 
 print("**************************************")
 
+print("************FLOOR DIVISION************")
+ 
+print("Enter two numbers to Floor  Divide")
+# prompt users for first number
+Number1 = input("First Number: \n")
+#prompt users for second user
+Number2 = input("Second Number: \n")
+floor_divid = float(Number1) // float(Number2)
+print(f"{Number1} // {Number2} = {floor_divid :.2f}")
+
